@@ -67,7 +67,6 @@ async function addFoodItem() {
     }
 
     const payload = {
-        action: "create",
         email: userEmail,
         name: name,
         quantity: quantity,
